@@ -7,7 +7,6 @@ public class ImplicitCasting {
 
         System.out.println("int value: " + intVal);
         System.out.println("double value (after implicit casting): " + doubleVal);
-        System.out.println("double value (after implicit casting): " + doubleVal);
 
     }
 }
