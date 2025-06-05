@@ -15,6 +15,12 @@ public class Main {
         num2 = in.nextInt();
         sum = num1 + num2;
         System.out.println("Sum is: " + sum);
+System.out.print("Enter num1: ");
+        num1 = in.nextInt();
+        System.out.print("Enter Num2: ");
+        num2 = in.nextInt();
+        sum = num1 + num2;
+        System.out.println("Sum is: " + sum);
 
 
 
