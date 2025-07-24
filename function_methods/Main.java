@@ -4,6 +4,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
     Sum();
+    int number = Sum2(12,34);
+        System.out.println(number);
     }
 
     /*
@@ -14,6 +16,10 @@ public class Main {
       }
 
      */
+
+     static int Sum2(int n1,int n2){
+         return n1+n2;
+     }
 
        static void Sum(){
             Scanner in = new Scanner(System.in);

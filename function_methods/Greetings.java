@@ -2,11 +2,13 @@ package function_methods;
 
 public class Greetings {
     public static void main(String[] args) {
-        greeting();
+        String message = greeting();
+        System.out.println(message);
+
     }
 
-    static void greeting(){
-        System.out.println("Hello World!!!!");
+     static String greeting(){
+        return "hellooooo";
 
 
     }
