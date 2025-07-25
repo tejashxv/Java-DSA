@@ -7,7 +7,7 @@ public class VarArgs {
         multi(2,3,"A","B");
     }
 
-    static void multi(int a, int b, String ...v){
+    static void multi(int a, int b, String ...v){ //variable length args always called at the end
         System.out.println(a+" "+b+" "+Arrays.toString(v));
     }
 
