@@ -4,16 +4,25 @@ import java.util.*;
 
 public class Arrays1 {
     public static void main(String[] args) {
-      int[] arr = new int[5];
-      for(int i = 1;i<arr.length;i++){
-          arr[i] = i;
-        }
-      for(int j = 0;j< arr.length;j++){
-          System.out.println(arr[j]);
-      }
+        Scanner in = new Scanner(System.in);
+      int[] arr = {1,2,3,4,5,6,7,87};
+//      for(int i = 1;i<arr.length;i++){
+//          arr[i] = in.nextInt();
+//        }
+//        for(int j:arr){
+//            System.out.print(j + " ");
+//        }
+        System.out.println(Arrays.toString(arr));
+
 
         // directly
-        int[] rollno = {1,2,3,4,5,6,7};
-        System.out.println(Arrays.toString(rollno));
+//        int[] rollno = {1,2,3,4,5,6,7};
+//        System.out.println(Arrays.toString(rollno));
+
+//        int[] roll;
+//        roll = new int[5];
+//        System.out.println(roll.length);
+
+
     }
 }
